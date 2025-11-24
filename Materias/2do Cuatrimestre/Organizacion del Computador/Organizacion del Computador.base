@@ -1,0 +1,23 @@
+filters:
+  and:
+    - note["base"] == link("Organizacion del Computador.base")
+properties:
+  file.name:
+    displayName: Nombre
+  Fecha:
+    type: datetime
+    displayName: Fecha
+  Descripción:
+    type: text
+    displayName: Descripción
+  Diapos:
+    type: list
+    displayName: Diapos
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Fecha
+      - Descripción
+      - Diapos

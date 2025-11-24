@@ -1,0 +1,27 @@
+filters:
+  and:
+    - note["base"] == link("Algoritmos y Estructuras de Datos.base")
+properties:
+  file.name:
+    displayName: Nombre
+  Grabacion:
+    type: text
+    displayName: Grabacion
+  Descripcion:
+    type: text
+    displayName: Descripcion
+  Fecha:
+    type: datetime
+    displayName: Fecha
+  Archivo:
+    type: list
+    displayName: Archivo
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Grabacion
+      - Descripcion
+      - Fecha
+      - Archivo

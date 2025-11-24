@@ -1,0 +1,27 @@
+filters:
+  and:
+    - note["base"] == link("Introduccion al Desarrollo de Software.base")
+properties:
+  file.name:
+    displayName: Nombre
+  Clase Grabada:
+    type: text
+    displayName: Clase Grabada
+  Fecha:
+    type: datetime
+    displayName: Fecha
+  Descripción:
+    type: text
+    displayName: Descripción
+  Diapos:
+    type: list
+    displayName: Diapos
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Clase Grabada
+      - Fecha
+      - Descripción
+      - Diapos

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260">
+  <!-- Fondo transparente por defecto (no hay rectángulo de fondo) -->
+  <defs>
+    <style>
+      .box{fill:#6c92b8;fill-opacity:0.95;stroke:#2e5173;stroke-width:2;rx:10;ry:10}
+      .txt{font: 22px sans-serif; fill:white}
+      .arrow{stroke:#2e5173; stroke-width:3; marker-end:url(#arrowHead)}
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#2e5173"/>
+    </marker>
+  </defs>
+
+  <!-- Cajas -->
+  <rect class="box" x="20" y="40" width="280" height="120"/>
+  <rect class="box" x="360" y="40" width="280" height="120"/>
+  <rect class="box" x="700" y="40" width="280" height="120"/>
+  <rect class="box" x="1040" y="40" width="320" height="120"/>
+
+  <!-- Textos -->
+  <text class="txt" x="160" y="95" text-anchor="middle">Búsqueda</text>
+  <text class="txt" x="160" y="125" text-anchor="middle">Instrucción</text>
+
+  <text class="txt" x="500" y="95" text-anchor="middle">Decodifica</text>
+  <text class="txt" x="500" y="125" text-anchor="middle">ción</text>
+
+  <text class="txt" x="840" y="95" text-anchor="middle">Búsqueda</text>
+  <text class="txt" x="840" y="125" text-anchor="middle">Operando</text>
+
+  <text class="txt" x="1200" y="95" text-anchor="middle">Ejecución</text>
+  <text class="txt" x="1200" y="125" text-anchor="middle">(ALU)</text>
+
+  <!-- Flechas -->
+  <line class="arrow" x1="300" y1="100" x2="360" y2="100"/>
+  <line class="arrow" x1="640" y1="100" x2="700" y2="100"/>
+  <line class="arrow" x1="980" y1="100" x2="1040" y2="100"/>
+
+  <!-- Flecha de retorno inferior -->
+  <path class="arrow" d="M 1160 160 L 1160 200 L 60 200 L 60 160"/>
+</svg>

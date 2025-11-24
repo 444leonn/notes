@@ -1,0 +1,19 @@
+filters:
+  and:
+    - note["base"] == link("Análisis Matemático II (CB001).base")
+properties:
+  file.name:
+    displayName: Nombre
+  Descripcion:
+    type: text
+    displayName: Descripcion
+  Fecha:
+    type: datetime
+    displayName: Fecha
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Descripcion
+      - Fecha

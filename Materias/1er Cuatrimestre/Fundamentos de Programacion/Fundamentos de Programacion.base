@@ -1,0 +1,25 @@
+# Fundamentos de Programacion
+
+filters:
+  and:
+    - note["base"] == link("Fundamentos de Programacion.base")
+properties:
+  file.name:
+    displayName: Nombre
+  Descripcion:
+    displayName: Descripcion
+    type: text
+  Fecha:
+    displayName: Fecha
+    type: datetime
+  Archivo:
+    displayName: Archivo
+    type: list
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Descripcion
+      - Fecha
+      - Archivo
