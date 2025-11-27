@@ -45,4 +45,4 @@ c * f(n): es la cota que estoy buscando
 
 $T(n) = O(f(n))$ si existe una constante posistiva c y un $n_0$ tal que $T(n) ≤ c * f(n)$, donde $n ≥ n_0$.
 
-![[complejidad-temporal.png]]
+![](../../../images/complejidad-temporal.png)

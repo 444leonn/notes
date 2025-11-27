@@ -8,7 +8,7 @@ First, we want to fork the linked-blog-starter repo, then [[install-linked-blog-
 
 **Note**: Update `https://github.com/matthewwong525/linked-blog-starter` with your own repository link
 
-![[install-linked-blog-starter-locally]]
+![](../images/install-linked-blog-starter-locally)
 
 After doing the installations, you can update the components as you wish. 
 

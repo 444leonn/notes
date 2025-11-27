@@ -75,7 +75,7 @@ Hay distintas maneras de realizarlo
 - *Inorder*: Primero visita el subarbol izquierdo, luego el nodo actual y por ultimo el subarbol derecho
 - *Postorder*: Primer visita el subarbol izquierdo, luego el subarbol derecho y por ultimo el nodo actual.
 
-![[recorridos-abb.png]]
+![](../../../images/recorridos-abb.png)
 
 ## Arbol Binario de Busqueda
 

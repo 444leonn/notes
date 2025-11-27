@@ -123,7 +123,7 @@ Además de los selectores y las propiedades básicas, CSS te permite crear dise�
 
 ### 1. **Modelo de caja (Box model)**
 
-![[kPV82Sm.png]]
+![](../../../images/kPV82Sm.png)
 
 En CSS, cada elemento se representa como una caja rectangular que está compuesta por las siguientes partes:
 

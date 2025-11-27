@@ -32,7 +32,7 @@ HTML *(HyperText Markup Language) *es un **lenguaje de marcado **que define la e
 
 ## Etiquetas
 
-![[h1.png]]
+![](../../../../images/h1.png)
 
 ### Etiquetas Basicas
 
@@ -54,7 +54,7 @@ Los atributos permiten modificar **propiedades de un elemento** HTML. Siempre se
 
 *Ejemplo:*
 
-![[machete-input-html.jpeg]]
+![](../../../../images/machete-input-html.jpeg)
 
 # CSS
 
@@ -66,7 +66,7 @@ I<u>**mportante:**</u> **CSS no es un lenguaje de programación. Tampoco de marc
 
 ## **Estructura básica de CSS**
 
-![[css.png]]
+![](../../../../images/css.png)
 
 ## Selectores
 
@@ -121,7 +121,7 @@ Existen 3 formas de insertar código CSS a una página Web:
 
 # Ejemplo con Flask
 
-![[ejemplo-flask.png]]
+![](../../../../images/ejemplo-flask.png)
 
 # Ejercitacion
 

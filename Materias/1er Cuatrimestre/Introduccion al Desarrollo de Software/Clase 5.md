@@ -13,7 +13,7 @@ Diapos:
 
 El desarrollo web es el **proceso de crear y mantener, sitios y aplicaciones web**. Abarca una amplia gama de tareas, desde el diseño y la planificación hasta la codificación y la implementación. El desarrollo Web se suele separar entre **Front end **y **Back End**.
 
-![[front-vs-back.png]]
+![](../../../images/front-vs-back.png)
 
 ## Introduccion al Backend
 
@@ -26,19 +26,19 @@ El **back end (o backend)**, también conocido como <u>desarrollo del lado del s
 Existen muchas herramientas para armar el back end de una aplicación o sitio web, dependiendo de la tecnología que se esté utilizando.
 
 <!-- Column 1 -->
-![[logo-spring.png]]
+![](../../../images/logo-spring.png)
 
 <!-- Column 2 -->
-![[logo-django.png]]
+![](../../../images/logo-django.png)
 
 <!-- Column 3 -->
-![[logo-nodo.png]]
+![](../../../images/logo-nodo.png)
 
 <!-- Column 4 -->
-![[logo-fastapi.png]]
+![](../../../images/logo-fastapi.png)
 
 <!-- Column 5 -->
-![[logo-python.png]]
+![](../../../images/logo-python.png)
 
 <!-- Column 6 -->
 
@@ -60,7 +60,7 @@ def index():
     return "Hola mundo"
 ```
 
-![[hola-mundo.png]]
+![](../../../images/hola-mundo.png)
 
 
 ## Introduccion al Front End
@@ -74,13 +74,13 @@ El **front end (o frontend)**, también conocido como <u>desarrollo del lado del
 Para el desarrollo del front end de una aplicación se suele utilizar un **stack **básico de desarrollo, y éste cuenta de las siguientes 3 tecnologías:
 
 <!-- Column 1 -->
-![[logo-html.png]]
+![](../../../images/logo-html.png)
 
 <!-- Column 2 -->
-![[logo-js.png]]
+![](../../../images/logo-js.png)
 
 <!-- Column 3 -->
-![[logo-css.png]]
+![](../../../images/logo-css.png)
 
 ### HTML
 
@@ -150,16 +150,16 @@ Más adelante explicaremos qué está ocurriendo en este script, no hace falta q
 ### Frameworks de Frontend
 
 <!-- Column 1 -->
-![[logo-react.png|React]]
+![](../../../images/logo-react.png|React)
 
 <!-- Column 2 -->
-![[logo-angular.png|Angular]]
+![](../../../images/logo-angular.png|Angular)
 
 <!-- Column 3 -->
-![[logo-vue.png|Vue]]
+![](../../../images/logo-vue.png|Vue)
 
 <!-- Column 4 -->
-![[logo-svelte.png|Svelte]]
+![](../../../images/logo-svelte.png|Svelte)
 
 ## Entorno Virtual
 
@@ -189,7 +189,7 @@ Dentro de las carpetas del Entorno Virtual encontramos:
 
 
 <!-- Column 2 -->
-![[folder-structure-.venv.png]]
+![](../../../images/folder-structure-.venv.png)
 
 <!-- Column 1 -->
 Y es dentro de la carpeta bin que encontramos el archivo “activate” que nos permite cambiar entre un python y otro, de un determinado ambiente virtual u otro.
@@ -201,7 +201,7 @@ Debemos usar `source ./carpeta/.venv/bin/activate`  para poder trabajar con el E
 Y `source deactivate` en cualquier momento para desativarlo
 
 <!-- Column 2 -->
-![[folder-structure-.venv-2.png]]
+![](../../../images/folder-structure-.venv-2.png)
 
 ### Flask - Templates y Jinja
 

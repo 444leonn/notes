@@ -30,7 +30,7 @@ Unix fue reescrito en C, ademas de que la mayor parte del Kernel de Windows esta
 
 ## Diferencias entre Compilador vs Interprete
 
-![[compilador-vs-interprete.png]]
+![](../../../../images/compilador-vs-interprete.png)
 
 ## Mi Primer Programa
 
@@ -335,7 +335,7 @@ Debemos importar el <stdbool.h>
 
 ### Operadores Logicos de Expresion Booleanas
 
-![[operadores-logicos.png]]
+![](../../../../images/operadores-logicos.png)
 
 ### Uso de Booleanos con If
 

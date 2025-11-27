@@ -32,7 +32,7 @@ Una vez programada, una EPROM se puede borrar solamente mediante exposición a u
 La memoria flash es una forma avanzada de EEPROM.
 
 <!-- Column 1 -->
-![[diagrama-circuito-memoria.png]]
+![](../../../images/diagrama-circuito-memoria.png)
 
 <!-- Column 2 -->
 La grabación de las Fi se realiza sobre la matriz de OR
@@ -55,7 +55,7 @@ $F2(ABC) = ABC + AB\bar{C} + \bar{A}BC = Sum_m (3,6,7)$
 ### PAL (Prog. Array Logic)
 
 <!-- Column 1 -->
-![[diagrama-circuito-memoria-1.png]]
+![](../../../images/diagrama-circuito-memoria-1.png)
 
 <!-- Column 2 -->
 Supongamos la necesidad de implementar dos funciones F1 y F2:
@@ -72,7 +72,7 @@ Estas Fi dadas ya son mínimas.
 ### PLA (Prog. Logic Array)
 
 <!-- Column 1 -->
-![[diagrama-circuito-memoria-2.png]]
+![](../../../images/diagrama-circuito-memoria-2.png)
 
 <!-- Column 2 -->
 Supongamos la necesidad de implementar dos funciones F1 y F2:

@@ -39,9 +39,9 @@ Entonces debemos calcular: $log_B(A) = C$
 
 Este teorema nos simplifica muchos calculos.
 
-![[complejidad-quicksort.png]]
+![](../../../images/complejidad-quicksort.png)
 
-![[complejidad-quicksort-1.png]]
+![](../../../images/complejidad-quicksort-1.png)
 
 ### Qué es una ecuación de recurrencia y cómo se usa para la complejidad
 

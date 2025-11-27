@@ -61,7 +61,7 @@ El valor de un digito depende tanto del simbolo utilizado, como tambien, de la p
 
 Vimos como el decimal es un sistema posicional, de la misma manera aplica para sistemas posicionales en otras bases, cuyos simbolos permitidos estan en la siguiente tabla.
 
-![[sistema-numeracion.png]]
+![](../../../images/sistema-numeracion.png)
 
 ### Ejemplo de numeros Decimales
 

@@ -21,7 +21,7 @@ Docker es una herramienta utilizada para la virtualización de Sistemas Operativ
 
 Son ligeros “paquetes” de software que incluyen todo lo necesario para que uno de los componentes de tu aplicación se ejecute individualmente.
 
-![[image 22.png]]
+![](../../../images/image 22.png)
 
 ## Cómo crear contenedores con Docker
 
@@ -34,21 +34,21 @@ Para crear contenedores, necesitamos conocer dos cosas
 
 Es un archivo donde tenemos un escribimos un set de instrucciones para crear una imagen de Docker
 
-![[image 23.png]]
+![](../../../images/image 23.png)
 
 # Que es una Imagen
 
 Las imágenes son utilizadas como plantillas para crear contenedores de Docker. Contienen TODA la información necesaria para crear un contenedor
 
-![[diagrama-docker.png]]
+![](../../../images/diagrama-docker.png)
 
 # **Contenedores vs Virtual Machines**
 
 <!-- Column 1 -->
-![[image 25.png]]
+![](../../../images/image 25.png)
 
 <!-- Column 2 -->
-![[image 26.png]]
+![](../../../images/image 26.png)
 
 # DockerHub
 

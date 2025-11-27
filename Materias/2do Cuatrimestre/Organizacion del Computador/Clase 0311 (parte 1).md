@@ -8,7 +8,7 @@ Diapos:
 ---
 # Arquitectura de una Computadora
 
-![[image 62.png]]
+![](../../../images/image 62.png)
 
 ## Bus del Sistema
 
@@ -22,7 +22,7 @@ trasferencia de información.
 John Von Neumann fue un matemático húngaro-estadounidense que realizó contribuciones fundamentales en física cuántica, análisis funcional, teoría de conjuntos, teoría de juegos, ciencias de la computación, economía, análisis numérico, cibernética, hidrodinámica, estadística y muchos otros campos.
 Se le considera uno de los matemáticos más importantes del siglo XX.
 
-![[diagrama-von-neumann.png]]
+![](../../../images/diagrama-von-neumann.png)
 
 ## Registros
 
@@ -47,7 +47,7 @@ Su función es interpretar las instrucciones de un programa informático mediant
 - **Unidad de control** (*CU*): maneja la información entre los registros de la CPU y conecta con la ALU las instrucciones extraídas de la memoria.
 - **Registros internos**: no accesibles (de instrucción, de bus de datos y bus de dirección) y accesibles de uso específico (contador programa, puntero pila, acumulador, flags, etc.) o de uso general.
 
-![[image 64.png]]
+![](../../../images/image 64.png)
 
 ### Memoria Principal (RAM)
 
@@ -112,7 +112,7 @@ Por otro lado, en el caso del bus de direcciones, a mayor capacidad, mayor capac
 
 Hace referencia a los pasos que lleva a cabo la unidad de control en la ejecución de un programa
 
-![[diagrama.svg]]
+![](../../../images/diagrama.svg)
 
 # Ley de Moore
 
@@ -132,7 +132,7 @@ El Intel 8086 pertenece al grupo de microprocesadores de 16 bits diseñados por 
 - Tiene registro de 9 banderas (Flags).
 - Corresponde a la arquitectura CISC (Complex Instruction Set Computing).
 
-![[image 65.png]]
+![](../../../images/image 65.png)
 
 ## Estructura
 
@@ -142,7 +142,7 @@ El Intel 8086 pertenece al grupo de microprocesadores de 16 bits diseñados por 
 - Base (BX)
 - Contador (CX)
 - Datos (DX)
-![[image 66.png]]
+![](../../../images/image 66.png)
 
 Otros Registros:
 
@@ -150,19 +150,19 @@ Otros Registros:
 - Registros de índice: Source y Destination Index(SI / DI).
 
 <!-- Column 2 -->
-![[image 67.png]]
+![](../../../images/image 67.png)
 
 <!-- Column 1 -->
 - Registros de punteros: Stack y Base Pointer (SP / BP).
 
 <!-- Column 2 -->
-![[image 68.png]]
+![](../../../images/image 68.png)
 
 <!-- Column 1 -->
 - Registros de Segmento: utilizados para cálculo de direcciones.
 
 <!-- Column 2 -->
-![[image 69.png]]
+![](../../../images/image 69.png)
 
 - Registro de Flags
 

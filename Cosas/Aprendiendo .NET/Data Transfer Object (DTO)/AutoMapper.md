@@ -48,4 +48,4 @@ He aquí un ejemplo:
 
 config.AssertConfigurationIsValid();`
 
-![[net-automapper.png]]
+![](../../../images/net-automapper.png)

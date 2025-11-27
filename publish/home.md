@@ -9,7 +9,7 @@ Publish your Obsidian Notes with a highly customizable Next.JS blog starter temp
 - Full-text search
 
 ## [[how-linked-blog-starter-works|How it works]]
-![[how-linked-blog-starter-works]]
+![](../images/how-linked-blog-starter-works)
 
 ## Getting Started
 ### [[home|Demo]]
@@ -21,6 +21,6 @@ Click the link above to find out how to publish your own notes!
 ### [[deploy-a-custom-linked-blog-starter|Customize this template]]
 Here is an example of how I [forked this repo](https://github.com/fleetingnotes/fleeting-notes-website) to create a landing page for [Fleeting Notes](https://www.fleetingnotes.app/).
 
-![[fn-website-demo.gif]]
+![](../images/fn-website-demo.gif)
 
 

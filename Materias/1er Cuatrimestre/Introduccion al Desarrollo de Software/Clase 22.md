@@ -115,7 +115,7 @@ Instantanea de un conjunto de cambios
 
 ## Esquema de Ramas
 
-![[image 48.png]]
+![](../../../images/image 48.png)
 
 ## Pull Request
 

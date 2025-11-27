@@ -101,7 +101,7 @@ CREATE TABLE historial_compras (
 
 # Diagrama
 
-![[base-de-datos-sadaels.svg]]
+![](../../images/base-de-datos-sadaels.svg)
 
 ## Codigo en DBML
 

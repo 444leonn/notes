@@ -105,7 +105,7 @@ Lista completa: [https://www.w3schools.com/js/js_reserved.asp](https://www.w3sch
 
 ## Funciones
 
-![[funcion-js.png]]
+![](../../../images/funcion-js.png)
 
 ### Funciones como Tipo de Dato
 
@@ -194,7 +194,7 @@ fetch(pokemonURL)
 El **DOM *****(Document Object Model)**** *es una interfaz de programación para representar elementos HTML como objetos en JavaScript. Permite la manipulación de nuestra página Web a través del código.
 
 <!-- Column 2 -->
-![[diagrama-html.png]]
+![](../../../images/diagrama-html.png)
 
 ## **¿Cómo se usa el DOM?**
 

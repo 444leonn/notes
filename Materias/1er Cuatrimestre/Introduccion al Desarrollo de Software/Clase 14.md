@@ -75,7 +75,7 @@ Ejecutar estos comandos uno por uno:
 
 **Paso 4: **Hacer click arriba a la izquierda en **Launch program**
 
-![[debugg.png]]
+![](../../../images/debugg.png)
 
 ## **Breakpoint**
 
@@ -85,7 +85,7 @@ Un breakpoint o punto de parada sirve para que al debuggear el debugger detenga 
 
 Es un breakpoint que tiene asociada una condición. El programa se detendrá en esa línea si y sólo si se cumple la condición asociada.
 
-![[debugg-1.png]]
+![](../../../images/debugg-1.png)
 
 ### **Comandos: Continue**
 

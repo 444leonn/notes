@@ -1,4 +1,4 @@
 ---
 
 ---
-![[do-while.pdf]]
+![](../../../../images/do-while.pdf)

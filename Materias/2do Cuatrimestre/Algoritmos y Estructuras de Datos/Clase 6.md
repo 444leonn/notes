@@ -5,6 +5,6 @@ Descripcion: • Refactorizando Codigo
 Fecha: 2025-09-04T20:16:00
 Archivo: []
 ---
-![[funcion-vector.png]]
+![](../../../images/funcion-vector.png)
 
-![[funcion-ejemplo.png]]
+![](../../../images/funcion-ejemplo.png)

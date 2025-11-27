@@ -29,7 +29,7 @@ Linux, un sistema operativo con todas las funciones similar a POSIX (Interfaz de
 Existen muchísimas distribuciones Linux, todas comparten el Kernel.
 
 <!-- Column 2 -->
-![[gif-distros.gif]]
+![](../../../images/gif-distros.gif)
 
 ### TERMINAL
 
@@ -56,11 +56,11 @@ Al final de la materia nos van a pedir crear un **SCRIPT** que es un conjunto de
 
 ### Sistema de Archivos
 
-![[image 58.png]]
+![](../../../images/image 58.png)
 
 ### Implementación del Sistema de Archivos de dos partes
 
-![[diagrama-kernel.png]]
+![](../../../images/diagrama-kernel.png)
 
 ### LINEA DE COMANDOS
 
@@ -68,7 +68,7 @@ El prompt esta conformado de la siguiente manera:
 
 `<username>@<computer>:<path> $ comando`
 
-![[bash-prompt.png]]
+![](../../../images/bash-prompt.png)
 
 ### NAVEGAR EN EL FILESYSTEM
 

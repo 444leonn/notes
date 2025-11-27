@@ -44,7 +44,7 @@ Campos de cada tabla:
 
 ### Distintos tipos de SQL Joins
 
-![[join-types.png]]
+![](../../../images/join-types.png)
 
 ### Inner Join
 
@@ -57,10 +57,10 @@ ON table1.column_name = table2.column_name;
 ```
 
 <!-- Column 2 -->
-![[inner-join.png]]
+![](../../../images/inner-join.png)
 
 # Integrar FRONT con BACK
 
 # **Controller Service Repository**
 
-![[image 51.png]]
+![](../../../images/image 51.png)
