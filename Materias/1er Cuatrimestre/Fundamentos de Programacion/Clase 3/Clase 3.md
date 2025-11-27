@@ -1,6 +1,6 @@
 ---
 base: "[[Fundamentos de Programacion.base]]"
-cover: "[[Clase 3.png]]"
+cover: "[[banner-c-program.png]]"
 Descripcion: "Introduccion a C: Variables, Estructuras Condicionales e Iterativas, Creacion Entorno C."
 Fecha: 2025-05-28T22:58:00
 Archivo: []
@@ -30,7 +30,7 @@ Unix fue reescrito en C, ademas de que la mayor parte del Kernel de Windows esta
 
 ## Diferencias entre Compilador vs Interprete
 
-![[image 15.png]]
+![[compilador-vs-interprete.png]]
 
 ## Mi Primer Programa
 
@@ -335,7 +335,7 @@ Debemos importar el <stdbool.h>
 
 ### Operadores Logicos de Expresion Booleanas
 
-![[3045612f-7241-49bd-b60f-f38b5d028cba.png]]
+![[operadores-logicos.png]]
 
 ### Uso de Booleanos con If
 

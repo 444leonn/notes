@@ -20,7 +20,7 @@ Esto se da con varios objetivos los cuales son:
 
 ### Diagrama Modular Completo
 
-![[a9f35506-db48-4580-9698-4c5f614680a3.png]]
+![[diagrama-programa.png]]
 
 # Funciones
 
@@ -48,7 +48,7 @@ Estas funciones son algunas de las cuales el lenguaje C nos provee para que util
 7. El cuerpo de la funcion encerrado entre llaves.
 8. Por ultimo el **return **que puede retornar o no un valor.
 
-![[image 14.png]]
+![[funcion-en-c.png]]
 
 ### Pasaje de Parametros
 

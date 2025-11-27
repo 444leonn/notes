@@ -1,6 +1,6 @@
 ---
 base: "[[Introduccion al Desarrollo de Software.base]]"
-cover: "[[Clase 6.webp]]"
+cover: "[[banner-flask.webp]]"
 Clase Grabada: https://youtu.be/zr0Vo2Qnj0c?si=OocXReAFApxa7bTx
 Fecha: 2025-05-28T22:58:00
 Descripción: "Entorno Virtual (con PIPENV),  TEMPLATES: Variables, Iteraciones, Condicionales, LINKS con url_for."

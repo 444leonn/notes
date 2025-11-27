@@ -34,7 +34,7 @@ La idea es que yo tengo un problema y lo puedo expresar en forma/funcion de las 
 
 Tengo un punto inicial y puede elegir entre dos opciones y asi sucesivamente.
 
-![[image 2.png]]
+![[arbol-binario.png]]
 
 Trato de representar todos los estados posibles de mi problema.
 
@@ -44,7 +44,7 @@ Lo que hago es entonces es recorrer cada uno de esos estados. Esto lo hago con i
 
 Empiezo a recorrer por ejemplo con A → A → A, si no encuentro la solucion, hago un paso hacia atras y puedo ir a B, quedaria A→ A→B.
 
-![[image 3.png]]
+![[arbol-binario-1.png]]
 
 Fijandome si puedo tomar otro camino, y si puedo exploro ese camino.
 

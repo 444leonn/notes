@@ -606,7 +606,7 @@ El primer dígito indica la categoría del código:
 - **4xx**: Error del Cliente
 - **5xx**: Error del Servidor
 Los dos dígitos siguientes especifican detalles adicionales.
-![[f02f69e0-f291-4347-bfd3-65c206d17dbc.png]]
+![[response-codes.png]]
 
 ### Categorías y Códigos HTTP Comunes
 

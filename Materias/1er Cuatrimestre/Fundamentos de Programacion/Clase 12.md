@@ -8,9 +8,9 @@ Archivo: []
 
 Hasta ahora trabajamos con un modelo muy simplificado del manejo de memoria en lenguaje C, pero nos alcanzo para comenzar a programar en este lenguaje.
 
-![[image 16.png]]
+![[estructura-cpu.png]]
 
-![[image 17.png]]
+![[jerarquia-memoria.png]]
 
 ## Punteros: Repaso de Variables
 
@@ -22,7 +22,7 @@ Desde el punto de vista del programador, las variables en el lenguaje C tienen 4
 
 # Pila de Ejecucion (Call Stack)
 
-![[image 18.png]]
+![[diagrama-memoria-programa.png]]
 
 Es una estructura dinamica de datos LIFO (acronimo incles de Last In, First Out), donde se guarda la informacion sobre las funciones que se estan ejecutando en cada momento.
 
@@ -36,7 +36,7 @@ Como vamos a ver mas adelante en el *debugger* (depurador), en C se administra a
 Por ejemplo:
 
 <!-- Column 2 -->
-![[Captura_desde_2025-06-18_17-13-43.png]]
+![[diagrama-funcion.png]]
 
 
 ## Desbordamiento de Pila
@@ -108,7 +108,7 @@ int factorial(int numero) {
 }
 ```
 
-![[image 19.png]]
+![[diagrama-pila.png]]
 
 Vemos entonces que la implementacion recursiva requiere mas recursos que la iterativa
 
@@ -177,7 +177,7 @@ int fibonacci(int numero) {
 ```
 
 <!-- Column 2 -->
-![[33b70259-9e28-419e-80c4-2f947535ebe1.png]]
+![[diagrama-fibonacci.png]]
 
 
 ## Ejemplo - Busqueda Binaria
@@ -214,7 +214,7 @@ int buscar(int[] numeros, int numero, int inicio, int fin) {
 ```
 
 <!-- Column 2 -->
-![[9933f444-1f94-4e11-82f3-a3ba083bc305.png]]
+![[diagrama-funcion-buscar.png]]
 
 ## Recursividad - Ejercicios
 

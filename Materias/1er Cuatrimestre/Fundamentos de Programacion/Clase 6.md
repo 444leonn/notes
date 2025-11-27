@@ -22,7 +22,7 @@ Acceso directo a un elemento del arreglo →  A través de su posición en el ar
 
 ## Unidimensionales - Vectores
 
-![[9f76e262-db72-415b-8e5a-613e5feab748.png]]
+![[vectores.png]]
 
 ### Acceso a los Elementos
 
@@ -32,7 +32,7 @@ El primer elemento ocupa la posición 0 del arreglo (vector), por lo tanto en un
 
 ## Bidimensionales - Matrices
 
-![[c90f5128-8aa3-4456-bda8-767443bce6c8.png]]
+![[matrices.png]]
 
 ## Acceso a los elementos
 

@@ -1,6 +1,6 @@
 ---
 base: "[[Introduccion al Desarrollo de Software.base]]"
-cover: "[[Clase 5.jpeg]]"
+cover: "[[banner-html-css.jpeg]]"
 Clase Grabada: https://youtu.be/aqGisd8RQ8U?si=Uong3EqSeJ91wY-6
 Fecha: 2025-05-28T22:58:00
 Descripción: Introduccion al Desarrollo Web, Front End y Back End, Instalacion de Flask, Entorno Virtual (con VENV), creacion de entorno virtual .venv.
@@ -80,7 +80,7 @@ Para el desarrollo del front end de una aplicación se suele utilizar un **stack
 ![[image 41.png]]
 
 <!-- Column 3 -->
-![[61e4af90-f12f-4df5-8372-519eef06a163.png]]
+![[logo-css.png]]
 
 ### HTML
 

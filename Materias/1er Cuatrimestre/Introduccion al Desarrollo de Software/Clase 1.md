@@ -1,6 +1,6 @@
 ---
 base: "[[Introduccion al Desarrollo de Software.base]]"
-cover: "[[Clase 1.png]]"
+cover: "[[banner-linux.png]]"
 Clase Grabada: https://youtu.be/KoHldfY6cL4?si=0SK6-aGhwC2-XBQt
 Fecha: 2025-05-28T22:58:00
 Descripción: Regimen de Cursada, Sistema Operativo, LINUX, Shell, Terminal y Comandos.
@@ -29,7 +29,7 @@ Linux, un sistema operativo con todas las funciones similar a POSIX (Interfaz de
 Existen muchísimas distribuciones Linux, todas comparten el Kernel.
 
 <!-- Column 2 -->
-![[ccD6Iyz_-_Imgur.gif]]
+![[gif-distros.gif]]
 
 ### TERMINAL
 

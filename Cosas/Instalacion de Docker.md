@@ -92,7 +92,7 @@ Se pueden manejar (ademas que desde la terminal) los contenedores e imagenes de 
 La cual es la extension oficial de “Docker” la cual viene con “Container Tools”
 
 <!-- Column 1 -->
-![[image 20.png]]
+![[extension-docker.png]]
 
 <!-- Column 2 -->
-![[image 21.png]]
+![[extension-container-tools.png]]

@@ -1,6 +1,6 @@
 ---
 base: "[[Introduccion al Desarrollo de Software.base]]"
-cover: "[[Clase 2.jpeg]]"
+cover: "[[banner-debian.jpeg]]"
 Clase Grabada: https://youtu.be/oix2WMpNBB4?si=Mnti59pDk-_1UJCC
 Fecha: 2025-05-28T22:58:00
 Descripción: Instalación Linux, Comandos (continuación), Variables, Scripts, Ejercicios.

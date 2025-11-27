@@ -1,6 +1,6 @@
 ---
 base: "[[Introduccion al Desarrollo de Software.base]]"
-cover: "[[Clase 3.jpeg]]"
+cover: "[[banner-bash.jpeg]]"
 Clase Grabada: https://youtu.be/IdBYGcquT-E?si=yMt_LZmlsOF93fJv
 Fecha: 2025-05-28T22:58:00
 Descripción: Estructuras Condicionales e Iterativas, Ciclicas, Pipelines, Grep, Sed, REGEX.

@@ -40,7 +40,7 @@ Es un archivo donde tenemos un escribimos un set de instrucciones para crear una
 
 Las imágenes son utilizadas como plantillas para crear contenedores de Docker. Contienen TODA la información necesaria para crear un contenedor
 
-![[image 24.png]]
+![[diagrama-docker.png]]
 
 # **Contenedores vs Virtual Machines**
 

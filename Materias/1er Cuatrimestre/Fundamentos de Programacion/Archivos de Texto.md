@@ -98,18 +98,18 @@ while (fscanf(archivo, "%[^,],%d\\n", nombre, &edad) == 2) {
 ```c
 fputc('A', archivo);  // Escribe un carácter
 ```
-![[8301e4bd-feb1-4dda-b4c6-bba18423e7cf.png|Ejemplo del video]]
+![[ejemplo-funcion-archivos.png|Ejemplo del video]]
 11. **fputs** - Escritura de cadenas
 ```c
 fputs("Hola Mundo\\n", archivo);  // Escribe una cadena
 ```
-![[image 11.png|Ejemplo del video]]
+![[funcion-archivos-ejemplo.png|Ejemplo del video]]
 12. **fprintf** - Escritura con formato
 El *fprintf *nos devuelvo un entero, correspondiente a la cantidad de caracteres guardados en el archivo
 ```c
 fprintf(archivo, "%s,%d\\n", "Juan Perez", 30);  // Formato CSV
 ```
-![[image 12.png|Ejemplo del Video]]
+![[funcion-archivos-ejemplo-1.png|Ejemplo del Video]]
 
 ## Cierre del archivo
 
@@ -197,10 +197,10 @@ int main() {
 
 Este código genera un archivo CSV estructurado que puede abrirse directamente en Excel u otras aplicaciones de hojas de cálculo.
 
-![[image 13.png]]
+![[funcion-cargar-registro.png]]
 
-![[Captura_desde_2025-05-28_18-26-13.png]]
+![[funcion-archivos-main.png]]
 
-![[Captura_desde_2025-05-28_18-26-35.png]]
+![[funcion-archivos-main-1.png]]
 
-![[Captura_desde_2025-05-28_18-26-51.png]]
+![[funcion-archivos-main-2.png]]
