@@ -22,7 +22,7 @@ trasferencia de información.
 John Von Neumann fue un matemático húngaro-estadounidense que realizó contribuciones fundamentales en física cuántica, análisis funcional, teoría de conjuntos, teoría de juegos, ciencias de la computación, economía, análisis numérico, cibernética, hidrodinámica, estadística y muchos otros campos.
 Se le considera uno de los matemáticos más importantes del siglo XX.
 
-![[image 63.png]]
+![[diagrama-von-neumann.png]]
 
 ## Registros
 

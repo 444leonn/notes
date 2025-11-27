@@ -30,10 +30,10 @@ Las APIs permiten que sus productos y servicios se comuniquen con otros, sin nec
 En nuestro caso utilizaremos, una API para comunicar el front end de la aplicación con los datos almacenados en el back end (posteriormente veremos )
 
 <!-- Column 1 -->
-![[image 27.png]]
+![[diagrama-api.png]]
 
 <!-- Column 2 -->
-![[image 28.png]]
+![[diagrama-api-2.png]]
 
 ## Tipos de APIs
 
@@ -80,7 +80,7 @@ Los protocolos de API permiten estandarizar el intercambio de datos entre los di
 Entonces una **RESTful API **es una API que sigue los **principios de REST**.
 
 <!-- Column 1 -->
-![[image 29.png]]
+![[diagrama-api-3.png]]
 
 <!-- Column 2 -->
 Los principios RESTful se basan en la idea de que los recursos se representan como objetos y que las operaciones sobre esos recursos se realizan utilizando métodos HTTP estándar. Esto hace que las APIs RESTful sean fáciles de consumir y desarrollar.
@@ -116,7 +116,7 @@ El **URI (uniform resource identifier)** o identificador uniforme de recursos (p
 
 **Partes que componen al URI:**
 
-![[image 30.png]]
+![[html-structure.png]]
 
 ### **Verbos / métodos HTTP**
 
@@ -179,7 +179,7 @@ El **código de estado** **(status code) **de la respuesta es un número que ind
 
 # Integracion entre Front y Back
 
-![[image 31.png]]
+![[diagrama-front-back.png]]
 
 ## Como vamos a trabajar nosotros las API
 
@@ -187,4 +187,4 @@ Vamos a tener un front que se va a comunicar con la API, la cual se va a comunic
 
 El usuario o “Actor” no va a tener acceso al back de manera directa.
 
-![[image 32.png]]
+![[diagrama-front-back-2.png]]

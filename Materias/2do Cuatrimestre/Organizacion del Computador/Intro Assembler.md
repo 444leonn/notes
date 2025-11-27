@@ -24,7 +24,7 @@ Este proceso de compilado tiene varias etapas, en las cuales se generan *codigos
 
 Estos codigos intermedios se pueden ver en distintos archivos que brindan informacion sobre como fue realizado el proceso de compilacion desde el codigo fuente al codigo ejecutable.
 
-![[image 61.png]]
+![[diagrama-etapas-compilado.png]]
 
 ### Analisis
 

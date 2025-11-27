@@ -60,7 +60,7 @@ Al final de la materia nos van a pedir crear un **SCRIPT** que es un conjunto de
 
 ### Implementación del Sistema de Archivos de dos partes
 
-![[image 59.png]]
+![[diagrama-kernel.png]]
 
 ### LINEA DE COMANDOS
 
@@ -68,7 +68,7 @@ El prompt esta conformado de la siguiente manera:
 
 `<username>@<computer>:<path> $ comando`
 
-![[image 60.png]]
+![[bash-prompt.png]]
 
 ### NAVEGAR EN EL FILESYSTEM
 

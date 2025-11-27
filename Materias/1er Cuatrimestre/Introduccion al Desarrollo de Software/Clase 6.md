@@ -38,7 +38,7 @@ Ejemplo de nuestro archivo **app.py**:
 
 Para ejecutar la app de Flask hay 3 formas:
 
-![[image 57.png]]
+![[diagrama-flask.png]]
 
 ## Estructura Básica de un Proyecto (Sin Blueprints)
 
