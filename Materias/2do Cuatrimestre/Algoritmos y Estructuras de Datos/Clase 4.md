@@ -8,8 +8,6 @@ Descripcion: |-
 Fecha: 2025-08-28T17:48:00
 Archivo: []
 ---
-# Parcialito
-
 # Cosas
 
 ## Flags de C
