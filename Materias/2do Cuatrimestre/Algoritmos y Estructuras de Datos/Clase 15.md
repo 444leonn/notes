@@ -35,6 +35,7 @@ El peso de la arista pue    de representarse
 - **Orden:** Es la cantidad de vértices o IVI (nodos)
 - **Tamaño:** Es la cantidad de aristas o IEI (conexiones o arcos)
 - **Arista Bucle:** Una arista es un bucle cuando conecta al vértice consigo mismo.
+- **Grafo Planar**: cuando puedo dibujar las aristas sin que se crucen
 - **Grafo Simple:**
 - **Grafo NO Simple:**
 
