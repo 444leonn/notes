@@ -15,41 +15,41 @@ Un programa puede encontrarse en varias etapas:
 
 En cada una de las etapas el programa tiene una estructura distinta.
 
-En *Edicion *el programa solo es un archivo de texto editado en el lenguaje seleccionado por el programador *(en este caso “C”)*, esto se denomina *Codigo Fuente.*
+En *Edición *el programa solo es un archivo de texto editado en el lenguaje seleccionado por el programador *(en este caso “C”)*, esto se denomina *Codigo Fuente.*
 
-Una vez el codigo fuente del programa se encuentra listo, se utiliza un conjunto de programas para traducir el codigo fuente, a un lenguaje que la computador pueda ejecutrar.
+Una vez el código fuente del programa se encuentra listo, se utiliza un conjunto de programas para traducir el código fuente, a un lenguaje que la computador pueda ejecutar.
 
 Este programa es el ***Compilador***
 
 # Compilador
 
-Tiene la tarea de ==traducir el codigo fuente del programa a una estructura que una computadora pueda ejecutar.==
+Tiene la tarea de ==traducir el código fuente del programa a una estructura que una computadora pueda ejecutar.==
 
-Este no es un proceso senncillo, y se encuentra compuesto por varias etapas.
+Este no es un proceso sencillo, y se encuentra compuesto por varias etapas.
 
-## Lexer: Analisis Lexicgrafico
+## Lexer: Análisis Lexicógrafo
 
 En esta primera etapa el *Lexer *es el ==encargado de leer el archivo de codigo fuente y generar unidades atomicas==.
 
-Para ello lee el programa de izquierda a derecha y agrupa en **componentes lexicos **(tokens), que son secuencias de caracteres que tienen un significado, *extrae las palabras.*
+Para ello lee el programa de izquierda a derecha y agrupa en **componentes léxicos**(tokens), que son secuencias de caracteres que tienen un significado, *extrae las palabras.*
 
-Ademas, todos los espacios en blanco, lineas en blanco, comentarios y demas informacion innecesaria se elimina del programa.
+Ademas, todos los espacios en blanco, lineas en blanco, comentarios y demás información innecesaria se elimina del programa.
 
-Tambien se comprueba que los simbolos del lenguaje se han escrito correctamente.
+También se comprueba que los símbolos del lenguaje se han escrito correctamente.
 
-## Parser: Analisis Sintactico y Semantico
+## Parser: Análisis Sintáctico y Semántico
 
-Los caracteres o componentes lexicos se agrupan jerarquicamente en frases gramaticales que el compilador utiliza para sintetizar la salida.
+Los caracteres o componentes léxicos se agrupan jerarquicamente en frases gramaticales que el compilador utiliza para sintetizar la salida.
 
-Se comprueba si lo obtenido en la fase anterior es sintacticamente correcto (obedece a la gramatica del lenguaje).
+Se comprueba si lo obtenido en la fase anterior es sintacticamente correcto (obedece a la gramática del lenguaje).
 
-Por lo general, las frases gramaticales del programa fuente se representan mediante un arbol de analisis sintactico.
+Por lo general, las frases gramaticales del programa fuente se representan mediante un árbol de análisis sintáctico.
 
 La fase de análisis semántico revisa el programa fuente para tratar de encontrar errores semánticos y reúne la información sobre los tipos para la fase posterior de generación de código. En ella se utiliza la estructura jerárquica determinada por la fase de análisis sintáctico para identificar los operadores y operandos de expresiones y proposiciones.
 
 Un componente importante del análisis semántico es la verificación de tipos. Aquí, el compilador verifica si cada operador tiene operandos permitidos por la especificación del lenguaje. Por ejemplo, las definiciones de muchos lenguajes de programación requieren que el compilador indique un error cada vez que se use un número real como índice de una matriz. Sin embargo, la especificación del lenguaje puede imponer restricciones a los operandos, por ejemplo, cuando un operador aritmético binario se aplica a un número entero y a un número real. Revisa, también, que los arreglos tengan definido el tamaño correcto.
 
-## Generador de Codigo Intermedio
+## Generador de Código Intermedio
 
 Después de los análisis sintáctico y semántico, algunos compiladores generan una representación intermedia explícita del programa fuente. Se puede considerar esta representación intermedia como un programa para una máquina abstracta que debe tener dos propiedades importantes:
 
@@ -58,9 +58,9 @@ Después de los análisis sintáctico y semántico, algunos compiladores generan
 
 La representación intermedia puede tener diversas formas. Existe una llamada **código de tres direcciones** que es como el lenguaje ensamblador de una máquina en la que cada posición de memoria puede actuar como un registro.
 
-## Generador de Codigo Objeto
+## Generador de Código Objeto
 
-Una vez compilado el código fuente del programa, gracias a la acción del compilador y el linkeditor, toma forma como un archivo en formato objeto, el cual es posible ejecutar en una computadora (comando: objdump -d). Por último, este programa objeto que está guardado en un dispositivo de almacenamiento es capaz de cobrar vida, al ser ejecutadas sus instrucciones por el procesador de la computadora. En esta etapa pasa a ser una entidad con "vida" (dinámica) la cual se divide en ciertas secciones. Estas son:
+Una vez compilado el código fuente del programa, gracias a la acción del compilador y el link editor, toma forma como un archivo en formato objeto, el cual es posible ejecutar en una computadora (comando: objdump -d). Por último, este programa objeto que está guardado en un dispositivo de almacenamiento es capaz de cobrar vida, al ser ejecutadas sus instrucciones por el procesador de la computadora. En esta etapa pasa a ser una entidad con "vida" (dinámica) la cual se divide en ciertas secciones. Estas son:
 
 ### **Código (.code)**
 

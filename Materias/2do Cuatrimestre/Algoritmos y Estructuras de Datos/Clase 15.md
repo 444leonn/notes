@@ -62,16 +62,14 @@ Es una secuencia de vertices (unidos por aristas). En un camino no pueden haber 
 
 ![](../../../../grafos-caminos.png)
 
-- **Ciclos: **Es cuando un camino empieza y termina en el mismo vértice.
-    - **Grafos ACICLICOS ⇒ **NO posee ciclos.
+- **Ciclos:** Es cuando un camino empieza y termina en el mismo vértice.
+    - **Grafos ACICLICOS ⇒** NO posee ciclos.
 ![](../../../images/grafos-ciclos.png)
-- **Grafo Conexo: **un grafo (no dirigido) es conexo, si para cualquier par de vértices existe al menos un camino entre ellos.
+- **Grafo Conexo:** un grafo (no dirigido) es conexo, si para cualquier par de vértices existe al menos un camino entre ellos.
 ![](../../../images/grafos-conexo.png)
-    - **Fuertemente Conexo: **existe camino de A hacia B y de B hacia A.
-    - **Débilmente Conexo: **Si para lograr estos caminos debemos reemplazar una o mas aristas por aristas sin sentido.
-Si todos los pares son *Fuertemente Conexo, *entonces el Digrafo es fuertemente conexo.
-
-![]](*../images/ff853a01-5b53-412d-9e4b-eaf1b40887ac.png)
+    - **Fuertemente Conexo:** existe camino de A hacia B y de B hacia A.
+    - **Débilmente Conexo:** Si para lograr estos caminos debemos reemplazar una o mas aristas por aristas sin sentido.
+Si todos los pares son *Fuertemente Conexo*, entonces el Digrafo es fuertemente conexo.
 
 ### Árbol
 Un grafo es un árbol si es *conexo y acíclico.*

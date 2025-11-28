@@ -7,7 +7,7 @@ Descripción: |-
 Diapos:
   - 2a73f454-0dd6-800b-b3e4-c51fdb976feb
 ---
-# Dispositivos Logicos Programables
+# Dispositivos Lógicos Programables
 
 Dentros de los PLDs *(Programable Logic Devices) *podemos encontrar dos tipos:
 

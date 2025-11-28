@@ -7,7 +7,7 @@ Descripción: Introduccion al Desarrollo Web, Front End y Back End, Instalacion 
 Diapos:
   - 2243f454-0dd6-8043-aeda-c05c9d93d5d3
 ---
-# Introduccion al Desarrollo Web
+# Introducción al Desarrollo Web
 
 ## Desarrollo Web
 
@@ -15,13 +15,13 @@ El desarrollo web es el **proceso de crear y mantener, sitios y aplicaciones web
 
 ![](../../../images/front-vs-back.png)
 
-## Introduccion al Backend
+## Introducción al Back-end
 
-### ¿Que es el Backend?
+### ¿Que es el Back-end?
 
-El **back end (o backend)**, también conocido como <u>desarrollo del lado del servidor</u>, se refiere a la parte de un sitio web o aplicación web que no es visible para los usuarios. Se encarga de la lógica de la aplicación, el almacenamiento de datos y la comunicación con el servidor. Entre sus tareas se encuentran:
+El **back end (o back-end)**, también conocido como <u>desarrollo del lado del servidor</u>, se refiere a la parte de un sitio web o aplicación web que no es visible para los usuarios. Se encarga de la lógica de la aplicación, el almacenamiento de datos y la comunicación con el servidor. Entre sus tareas se encuentran:
 
-### Frameworks de Backend
+### Frameworks de Back-end
 
 Existen muchas herramientas para armar el back end de una aplicación o sitio web, dependiendo de la tecnología que se esté utilizando.
 

@@ -9,7 +9,7 @@ Archivo:
 ---
 # Pilas
 
-*Ejemplo*: los historiales de busqueda, a medida que vamos avanzando paginas se van apilando, y cuando queremos retrodecer se desapila el ultimo que habiamos entrado.
+*Ejemplo*: los historiales de búsqueda, a medida que vamos avanzando paginas se van apilando, y cuando queremos retroceder se desapila el ultimo que habíamos entrado.
 
 ## Que es una pila
 
@@ -17,32 +17,32 @@ Archivo:
 
 Estamos intentando representar una estructura de datos en la que almacenamos elementos.
 
-- **LIFO: **Last In First Out, sigue esta regla ya que el ultimo en entrar va a ser el primero en salir.
+- **LIFO:** Last In First Out, sigue esta regla ya que el ultimo en entrar va a ser el primero en salir.
 El ultimo elemento que entro en la pila se llama **TOPE**, el resto de la pila no lo podemos ver.
-Por lo general en operaciones de busqueda no nos va a servir la pila justamente por eso.
+Por lo general en operaciones de búsqueda no nos va a servir la pila justamente por eso.
 
 ### Operaciones
 
-Para que un TDA de tipo PILA sea considerado como tal, debe cumplir como minimo con estas operaciones.
+Para que un TDA de tipo PILA sea considerado como tal, debe cumplir como mínimo con estas operaciones.
 
 - Crear (create):
 - Apilar (push): apilo un valor en la pila, (importante reasignar el tope)
 - Tope (top): devuelve el valor que hay en el tope de la pila. No puedo acceder a los elementos por debajo del tope, si lo pudiera hacer 
 - Destruir (destroy):
 - Desapilar (pop): puedo quitar el elemento que actualmente esta en el tope (importante reasignar el tope).
-- Vacia (isEmpty): 
+- Vacia (is Empty): 
 
 ## Implementaciones
 
 Podemos pensar nuestra pila de tres formas:
 
-### Vector Estatico
+### Vector Estático
 
-Implemento un array estatico de 5 posiciones, una variable *tope, *y una *capacidad* para saber la cantidad que puedo almacenar.
+Implemento un array estático de 5 posiciones, una variable *tope, *y una *capacidad* para saber la cantidad que puedo almacenar.
 
 Para insertar una elemento verifico si el tope es menor a la capacidad
 
-Para ver si esta vacia veo si el tope es 0 `tope == 0`
+Para ver si esta vacía veo si el tope es 0 `tope == 0`
 
 Para ver si puedo desapilar (pop) veo si el tope es distinto de 0 `tope != 0`
 
@@ -55,23 +55,23 @@ El problema es si quiero almacenar mas elementos.
 - Insertar / Pushear: O(1)
 - Desapilar / Pop: O(1)
 
-### Vector Dinamico
+### Vector Dinámico
 
-Nos permite usar realloc, ademas de mantener las demas cosas.
+Nos permite usar realloc, ademas de mantener las demás cosas.
 
 El asunto es saber **cuanto agrandamos el vector?**
 
-Una cosa importante es tener en cuenta es que si vamos agregando memoria de a 1, por cada elemento que queramos agregar, la complejidad de esa implementacion es muy grande, ya que teniendo en cuenta el peor caso de *realloc, *vamos a estar copiando todo el vector en todos los casos.
+Una cosa importante es tener en cuenta es que si vamos agregando memoria de a 1, por cada elemento que queramos agregar, la complejidad de esa implementacion es muy grande, ya que teniendo en cuenta el peor caso de *realloc,* vamos a estar copiando todo el vector en todos los casos.
 
 Por eso buscamos implementar un incremento en el realloc al doble en *2, lo cual
 
-Este incremento o decremento de la pila lo podemos hacer tomando distintas politicas o redimensiones.
+Este incremento o decremento de la pila lo podemos hacer tomando distintas políticas o redimensiones.
 
 Por ejemplo:
 
 - La pila crece cuando se supera el 75% crece.
 
-Inclusive tambien puedo hacer un decremento en el tamaño de la pila cuando por ejemplo:
+Inclusive también puedo hacer un decremento en el tamaño de la pila cuando por ejemplo:
 
 - Cuando se llega al 50% de la capacidad.
 - Cuando desapilo
@@ -90,11 +90,11 @@ Todo muy lindo pero si no puedo realocar, porque no existe memoria contigua y el
 
 ### Que idea abstrae
 
-Basicamente es un struct, donde esta mi dato y un puntero asociado donde esta el siguiente dato.
+Básicamente es un struct, donde esta mi dato y un puntero asociado donde esta el siguiente dato.
 
 Version 2.0, hay un puntero asociado al dato anterior* “TDA Nodo doblemente enlazado”*
 
-### Solucion: lista de Nodos
+### Solución: lista de Nodos
 
 - Los elementos son nodos.
 - Cada uno tiene una referencia al nodo anterior.
@@ -133,13 +133,13 @@ Estructura “*F.I.F.O*” *First in, First Out*, esto hace referencia a que el 
 - Encolar / Agregar elemento
 - Desencolar / Quitar elemento
 - Primero: ver el primer elemento de la cola
-- Vacio: ver si esta vacia
+- Vacio: ver si esta vacía
 
 ## Implementacion
 
-### Vector Estatico
+### Vector Estático
 
-Encolar: agrego un nuevo elemento en la ultima posicion.
+Encolar: agrego un nuevo elemento en la ultima posición.
 
 Si llego al tope no voy a poder.
 
@@ -157,10 +157,10 @@ Soluciones:
 - Encolar: O(1)
 - Desencolar:
     - Desplazando elementos: O(n)
-    - Usando cola circular: O(1), ya que no hace falta desplazar ningun elemento, (jugamos con los indices)
+    - Usando cola circular: O(1), ya que no hace falta desplazar ningún elemento, (jugamos con los indices)
 - 
 
-### Vector Dinamico
+### Vector Dinámico
 
 Tiene la ventaja de que puedo ampliarlo cuando me quedo sin espacio.
 
@@ -212,10 +212,10 @@ Cuando reservo / libero memoria?
 
 Cuando la creo el nodo al primer elemento apunta a NULO
 
-Cuando inserto el primer elemento elemento el puntero al nodo pasa a ser al elemento, y tambien tengo una referencia dentro de mi nodo al siguiente elemento.
+Cuando inserto el primer elemento elemento el puntero al nodo pasa a ser al elemento, y también tengo una referencia dentro de mi nodo al siguiente elemento.
 
 Si quiero insertar un elemento al final debo recorrer hasta llegar al nodo cuya referencia sea NULO y cambiar su referencia al nuevo nodo que quiero insertar.
 
 Si quiero insertar un nuevo nodo entre medio, osea en cualquier lado distinto del final. Tengo que, asignar al nodo que quiero insertar la referencia al nodo que va a ser su siguiente y luego al nodo anterior le asigno la referencia al nuevo nodo. (O usar un nodo auxiliar)
 
-Si quiero eliminar un nodo de entre medio, ahi obligatoriamente debo utilizar un nodo auxiliar para no perder la referencia.
+Si quiero eliminar un nodo de entre medio, ahí obligatoriamente debo utilizar un nodo auxiliar para no perder la referencia.

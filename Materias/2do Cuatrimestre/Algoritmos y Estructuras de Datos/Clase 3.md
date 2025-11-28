@@ -14,7 +14,7 @@ Archivo:
 ---
 # Comparando Algoritmos
 
-Para poder hacerlo tratamos de definir un *Modelo Matematico* para poder dejar de lado las limitaciones de cada dispositivo y en cuanto a procesamiento, memoria, etc.
+Para poder hacerlo tratamos de definir un *Modelo Matemático* para poder dejar de lado las limitaciones de cada dispositivo y en cuanto a procesamiento, memoria, etc.
 
 ## Vamos a Contar Instrucciones
 

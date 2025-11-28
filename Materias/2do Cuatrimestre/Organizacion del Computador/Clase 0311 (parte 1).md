@@ -65,7 +65,7 @@ La memoria secundaria o también conocida como memoria auxiliar o almacenamiento
 Este tipo de memoria *es de almacenamiento masivo y permanente (no volátil)*, con mayor capacidad para almacenar datos e información que la memoria primaria que es volátil, aunque la memoria secundaria es de menor velocidad.
 
 
-T**ipos de Memoria Secundaria:**
+**Tipos de Memoria Secundaria:**
 
 - Magnética (disco duro, cinta magnética).
 - Óptica (CD, DVD, BD).

@@ -8,7 +8,7 @@ Archivo:
 ---
 # Cosas Importantes
 
-## Clang (formateador codigo C)
+## Clang (formateador código C)
 
 1. Descargar el compilador clang (`sudo apt-get install clang-format` )
 2. Descargar el archivo .clang-format de este link: [https://github.com/torvalds/linux/blob/master/.clang-format](https://github.com/torvalds/linux/blob/master/.clang-format)  y guardarlo en tu carpeta Home con el nombre `.clang-format` (exactamente con ese nombre).
@@ -16,9 +16,9 @@ Archivo:
 
 ## Secuencias de Escape ANSI (Colores)
 
-Las secuencias de escape ANSI son una serie de codificaciones que nos permiten manejar el formato del texto de la terminal a nuestro gusto. Existe una gran variedad de estos codigos y distintas maneras de implementarlo.
+Las secuencias de escape ANSI son una serie de codificaciones que nos permiten manejar el formato del texto de la terminal a nuestro gusto. Existe una gran variedad de estos códigos y distintas maneras de implementarlo.
 
-Para hacer lo hacemos definiendo una constante y poniendo un string con el codigo de escape que queremos usar.
+Para hacer lo hacemos definiendo una constante y poniendo un string con el código de escape que queremos usar.
 
 Ejemplo:
 
@@ -26,7 +26,7 @@ Ejemplo:
 
 ## Como parametrizar un programa
 
-Para poder pasarle  parametros a  nuestro programa de C lo hacemos a traves del main, pasandole la cantidad de argumentos y un *char pointer* o un array de char que son los argumentos en si.
+Para poder pasarle  parámetros a  nuestro programa de C lo hacemos a través del main, pasandole la cantidad de argumentos y un *char pointer* o un array de char que son los argumentos en si.
 
 Siempre se cuenta al nombre del programa ejecutable como primer argumento (indice 0)
 
@@ -49,7 +49,7 @@ compilar: archivo.c
 	gcc archivo.c -o tp1
 ```
 
-Si no quiero que se repita la compilacion, cambio el nombre de la regla *compilar *por el nombre del archivo ejecutable.
+Si no quiero que se repita la compilación, cambio el nombre de la regla *compilar *por el nombre del archivo ejecutable.
 
 Quedaria tal que asi:
 

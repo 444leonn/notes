@@ -5,19 +5,19 @@ Fecha: 2025-09-23T18:12:00
 Archivo:
   - 2773f454-0dd6-8088-b8be-ed3f9f846206
 ---
-# Arbol
+# Árbol
 
-Es una coleccion de nodos, que a su vez, pueden estar conectados a otros multiples nodos.
+Es una colección de nodos, que a su vez, pueden estar conectados a otros multiples nodos.
 
 ## Por que?
 
-Nacen de la necesidad de representar una jerarquia en la estructura de los dato, asi como tambien de querer optimizar la busqueda lineal de una lista.
+Nacen de la necesidad de representar una jerarquía en la estructura de los dato, así como también de querer optimizar la búsqueda lineal de una lista.
 
-Con el arbol se intenta hacer algo similar a la busqueda binaria, tratando de darnos acceso a los datos en un mejor
+Con el árbol se intenta hacer algo similar a la búsqueda binaria, tratando de darnos acceso a los datos en un mejor
 
 ## Como
 
-A partir de un nodo “raiz” a los cuales se le conectan subnodos, y demas.
+A partir de un nodo “raíz” a los cuales se le conectan subnodos, y demás.
 
 ## Tipos de Arboles
 
@@ -25,26 +25,26 @@ A partir de un nodo “raiz” a los cuales se le conectan subnodos, y demas.
 
 ### Recursividad
 
-- Condicion de Corte
-- Llamada a la funcion
+- Condición de Corte
+- Llamada a la función
 
 ## Definiciones
 
-## Arbol N-arios
+## Árbol N-arios
 
-Un *arbol *es una **coleccion de nodos**
+Un *árbol* es una **colección de nodos**
 
-- Nodos son todos los elementos del arbol.
+- Nodos son todos los elementos del árbol.
 
 > [!tip] 💡
 > Observacion: cada nodo tiene 0 o mas elementos conectados a el.
 
-- Raiz: Es el elemento en el 1er nivel del arbol (mas alto).
+- Raíz: Es el elemento en el 1er nivel del árbol (mas alto).
 
 Los elementos se numeran de N1, hacia abajo, con N2, N3, ….. Nn
 
-- Subarbol: Parandome en un nodo, puedo ver distintos arboles debajo de el.
-- Nodos Padres: Desde un nodo, el superior a el es su padre. Todos los nodos tienen un padre unico (salvo la raiz N1)
+- Subarbol: Parándome en un nodo, puedo ver distintos arboles debajo de el.
+- Nodos Padres: Desde un nodo, el superior a el es su padre. Todos los nodos tienen un padre único (salvo la raíz N1)
 - Nodos Hijos: Los nodos conectados en un nivel inferior son *hijos *del nodo en el que estoy parado.
 
  
@@ -65,7 +65,7 @@ Podemos tener una nocion de *“Hijo Izquierdo”* e *“Hijo Derecho”*
 
 - Crear
 
-### **Recorridos: **Es la operacion mas importante (lo van a mirar en el tp)
+### **Recorridos:** Es la operación mas importante (lo van a mirar en el tp)
 
 Significa de alguna forma pasar por cada uno de los nodos.
 
@@ -110,14 +110,14 @@ Dividimos el problema en 3 casos.
 
 ### Recorridos Aplicados a ABBs
 
-- Preorden: Sirve para hacer una copia del árbol.
+- Pre-orden: Sirve para hacer una copia del árbol.
     - [20, 15, 10, 5, 13, 17, 19, 25, 30, 27, 35]
-- Inorden: Nos da un recorrido ORDENADO del árbol.
+- In-orden: Nos da un recorrido ORDENADO del árbol.
     - [5, 10, 13, 15, 17, 19, 20, 25, 27, 30, 35]
-- Postorden: Nos da el orden de borrado del árbol.
+- Post-orden: Nos da el orden de borrado del árbol.
     - [5, 13, 10, 19, 17, 15, 27, 35, 30, 25, 20]
 
-### Importante Balancear un Arbol
+### Importante Balancear un Árbol
 
 - A pesar de todo lo visto, el orden en el que se insertan los elementos en un ABB es de gran importancia.
 - Dos ABB con los mismos elementos pero insertados en distinto orden no necesariamente son iguales.

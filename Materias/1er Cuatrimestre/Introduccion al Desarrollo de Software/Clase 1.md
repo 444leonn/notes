@@ -70,7 +70,7 @@ El prompt esta conformado de la siguiente manera:
 
 ![](../../../images/bash-prompt.png)
 
-### NAVEGAR EN EL FILESYSTEM
+### NAVEGAR EN EL FILE-SYSTEM
 
 Algunos comandos que podemos utilizar:
 

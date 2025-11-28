@@ -5,7 +5,7 @@ Descripción: Arquitecturas Multicore y Tecnologías Avanzadas
 Diapos:
   - 2a73f454-0dd6-80bf-8be0-c50dd8b9ccf6
 ---
-# Tecnologias Disponibles
+# Tecnologías Disponibles
 
 Dentro de las estructuras de computadores CISC, y como producto de la evolución de las diferentes arquitecturas, los fabricantes de silicio han ido añadiendo nuevas tecnologías que mejoran la performance, la seguridad, el management del equipo, entre muchas otras funcionalidades.
 

@@ -12,7 +12,7 @@ Archivo:
 
 ## Recursividad de Cola
 
-Si la llamada recursiva a si misma es la ultima operacion dentro de dicha funcion.
+Si la llamada recursiva a si misma es la ultima operación dentro de dicha función.
 
 No hace falta operar con el resultado que recibe de la siguiente llamada recursiva
 
@@ -20,32 +20,32 @@ Nos permite optimizar las llamadas recursivas, para poder reducir el espacio ocu
 
 # Dualidad
 
-Cualquier cosa escrita de manera Iterativa puede ser escrita Recusivamente y biceversa.
+Cualquier cosa escrita de manera Iterativa puede ser escrita Recusivamente y viceversa.
 
 Incluso existen lenguajes que no tienen estructuras iterativas, y son forzados a implementar la recursion.
 
 ## Backtracking
 
-La idea es que yo tengo un problema y lo puedo expresar en forma/funcion de las distintas soluciones posibles que tengo.
+La idea es que yo tengo un problema y lo puedo expresar en forma/función de las distintas soluciones posibles que tengo.
 
-*“Es una tecnica de reso*
+*“Es una técnica de reso*
 
-### *Problema Generico*
+### *Problema Genérico*
 
-Tengo un punto inicial y puede elegir entre dos opciones y asi sucesivamente.
+Tengo un punto inicial y puede elegir entre dos opciones y así sucesivamente.
 
 ![](../../../images/arbol-binario.png)
 
 Trato de representar todos los estados posibles de mi problema.
 
-Y si tengo una forma de hacerlo, puedo decir que la solucion a mi problema va a estar en uno de esos estados / casos.
+Y si tengo una forma de hacerlo, puedo decir que la solución a mi problema va a estar en uno de esos estados / casos.
 
 Lo que hago es entonces es recorrer cada uno de esos estados. Esto lo hago con invocaciones recursivas.
 
-Empiezo a recorrer por ejemplo con A → A → A, si no encuentro la solucion, hago un paso hacia atras y puedo ir a B, quedaria A→ A→B.
+Empiezo a recorrer por ejemplo con A → A → A, si no encuentro la solución, hago un paso hacia atrás y puedo ir a B, quedaría A→ A→B.
 
 ![](../../../images/arbol-binario-1.png)
 
-Fijandome si puedo tomar otro camino, y si puedo exploro ese camino.
+Fijándome si puedo tomar otro camino, y si puedo exploro ese camino.
 
-Mas adelante vamos a ver que se conoce como* ****DFS “Distributes FIle System”.*** Busco en profundidad y no a lo ancho.
+Mas adelante vamos a ver que se conoce como **DFS “Distributes FIle System”.** Busco en profundidad y no a lo ancho.

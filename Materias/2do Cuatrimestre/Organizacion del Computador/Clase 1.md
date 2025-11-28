@@ -6,25 +6,25 @@ Diapos: []
 ---
 # Algunas Anotaciones
 
-# Introduccion a los Sistemas Digitales
+# Introducción a los Sistemas Digitales
 
-## Señales Analogicas
+## Señales Analógicas
 
-Son variables electricas continuas en el tiempo, pueden ser en forma de una corriente, una tension o una carga electrica.
+Son variables eléctricas continuas en el tiempo, pueden ser en forma de una corriente, una tension o una carga eléctrica.
 
 - Varia en forma continua entre un limite inferior y un limite superior
 
-Para señales periodicas podemos definir ciertos parametros como el periodo $T$
+Para señales periódicas podemos definir ciertos parámetros como el periodo $T$
 
 ## Señales Digitales
 
-Son variables electricas con dos niveles: *0 *o 1
+Son variables eléctricas con dos niveles: *0 *o 1
 
-Su variacion en el tiempo contiene la informacion acorda a una codificacion a utilizar.
+Su variación en el tiempo contiene la información acorda a una codificación a utilizar.
 
 ## Teorema de Nyquist
 
-Define la frecuencia minima de meustreo para poder reconstruir una señal anologica en base a su muestreo.
+Define la frecuencia minima de muestreo para poder reconstruir una señal anologica en base a su muestreo.
 
 - $FM:$ Frecuencia de muestreo
 - $FS:$ Frecuencia señal
@@ -35,19 +35,19 @@ El teorema estable que $FM >= 2*FS$
 
 ### Muestreador
 
-Ingresa una señal analogica* “A” *pasando por un circuito* “muestreador o discretizador”.*
+Ingresa una señal analógica* “A” *pasando por un circuito* “muestreador o discretizador”.*
 
-Este toma muestras acorde a la *FM*. Una vez tomadas, genera una nueva señal* “B” *que posee ya no infinitos puntos como la analogica, sino finitos.
+Este toma muestras acorde a la *FM*. Una vez tomadas, genera una nueva señal* “B” *que posee ya no infinitos puntos como la analógica, sino finitos.
 
 ### Conversor o Codificador
 
 La señal* “B” *ingresa al conversor para convertir los finitos puntos de tension o corriente (o la variable que sea), a valores binarios a traves de una tabla de conversion, obteniendo de esta manera la señal de salida.
 
-# Introduccion a Sistemas de Numeracion
+# Introducción a Sistemas de Numeración
 
 ## Sistema de Numeracion
 
-Es un conjunto finito de simbolos que se empleada para la asignacion de valores numericos.
+Es un conjunto finito de simbolos que se empleada para la asignación de valores numéricos.
 
 Existen los posicionales y los no posicionales
 
@@ -57,17 +57,17 @@ Los digitos tienen el valor del simbolo en particular designado
 
 ### Sistemas Posicionales
 
-El valor de un digito depende tanto del simbolo utilizado, como tambien, de la posicion en la que se encuentra.
+El valor de un dígito depende tanto del símbolo utilizado, como también, de la posición en la que se encuentra.
 
-Vimos como el decimal es un sistema posicional, de la misma manera aplica para sistemas posicionales en otras bases, cuyos simbolos permitidos estan en la siguiente tabla.
+Vimos como el decimal es un sistema posicional, de la misma manera aplica para sistemas posicionales en otras bases, cuyos símbolos permitidos están en la siguiente tabla.
 
 ![](../../../images/sistema-numeracion.png)
 
-### Ejemplo de numeros Decimales
+### Ejemplo de números Decimales
 
 - 12698 (Base 10) = 10000 + 2000 + 600 + 90 + 8
 $1 * 10^4 + 2 * 10^3 + 9*10^1 + 8*10^0$
-= Sumatoria (( numero * (base ^ posicion))
+= Sumatoria (( numero * (base ^ posición))
 
 ## Cambios de Base
 
@@ -77,7 +77,7 @@ Se divide el numero decimal por la base destino.
 
 ### De cualquier base a base 10
 
-Se aplica el concepto de pesos de la posicion
+Se aplica el concepto de pesos de la posición
 
 > [!tip] 💡
 > Notese que los binarios que terminan en “1” son numeros impares
@@ -86,11 +86,11 @@ Se aplica el concepto de pesos de la posicion
 
 ## Valor Absoluto y Bit de Signo (VA y BS)
 
-Una representacion en formato de VA y Signo nos permite codificar un entero con *x cantidad de bits* (ej. 8 bits) , tomando 7 bits de valor modulo y el bit mas significativo como signo (7 + 1)
+Una representación en formato de VA y Signo nos permite codificar un entero con *x cantidad de bits* (ej. 8 bits) , tomando 7 bits de valor modulo y el bit mas significativo como signo (7 + 1)
 
 ### Ejemplo: 
 
-- 1 bit para el signo y 7 bits para la magnitud, son 8 bits totales que podemos representar tanto para la parte positiva y negativa. $2^8 = 256$ numeros (del 0 a 255 en binario natural). En VA y BS van a estar repartidos entre 128 numeros positivos (bit de signo 0) y 128 numeros negativos (bit de signo en 1).
+- 1 bit para el signo y 7 bits para la magnitud, son 8 bits totales que podemos representar tanto para la parte positiva y negativa. $2^8 = 256$ números (del 0 a 255 en binario natural). En VA y BS van a estar repartidos entre 128 numeros positivos (bit de signo 0) y 128 numeros negativos (bit de signo en 1).
     - 00000000: 1 en binario, es al mismo tiempo 1 en VAyBS
 
 Si quisiera representar el -1, pondria el $MSB = 1$, lo que implica el signo negativo, y el resto seria modulo: $10000001$
