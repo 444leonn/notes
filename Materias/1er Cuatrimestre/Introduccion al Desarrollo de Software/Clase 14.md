@@ -13,13 +13,13 @@ Diapos:
 - Podemos dividir los bugs en categorías:
     - De sintaxis
     - De ejecución
-    - De diseño y/o logica.
+    - De diseño y/o lógica.
 
 ## Origen del Termino
 
 # ¿Qué es Depurar o Debuggear?
 
-- Es el proceso que consiste en la deteccion y correcion de bugs.
+- Es el proceso que consiste en la detección y corrección de bugs.
     - En inglés se dice “debugging” y en la mayoría de los ambientes van conocerlo de esta forma
 - Es un proceso más que habitual en el ambiente del desarrollo tanto en la etapa de creación como en la de mantenimiento de un programa.
 

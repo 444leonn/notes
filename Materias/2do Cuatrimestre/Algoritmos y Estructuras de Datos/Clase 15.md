@@ -120,6 +120,27 @@ Ejemplo usando la pila:
 3. Apilar los vertices adyacentes al actual.
 4. Repetir desde (2) hasta quedarse sin vertices.
 
+Ejemplo de manera Recursiva en Python:
+
+```python
+def recorrido_dfs_recursivo(grafo, vertice, visitados):
+	if grafo == None or vertice == None:
+		return
+	if vertice not in visitados:
+		visitados.append(vertice)
+	for adyacente in grafo[vertice]:
+		if adyacente not in visitados:
+			recorrido_dfs_recursivo(grafo, adyacente, visitados)
+
+def recorrido_dfs(grafo):
+	if grafo == None:
+		return
+	visitados = []
+	inicio = list(grafo.keys())[0]
+	recorrido_dfs_recursivo(grafo, inicio, visitados)
+	return visitados
+```
+
 ## A lo Ancho (BFS “Breadth First Search”)
 
 Es un recorrido en anchura del grafo.
@@ -128,7 +149,29 @@ Utiliza una *cola*.
 Consiste en ir recorriendo el grafo empezando desde un vértice cualquiera, y luego se van visitando los vertices adyacentes mas cercanos .
 
 Ejemplo usando la cola:
-1. Encolar un vertices.
+1. Encolar un vértice.
 2. Quitar un vértice de la cola (visitarlo).
 3. Encolar los vertices adyacentes al actual.
 4. Repetir desde (2) hasta quedarse sin vertices.
+
+Ejemplo en Python:
+
+```python
+def recorrido_bfs(grafo):
+	if grafo == None:
+		return
+	cola = []
+	visitados = []
+	inicio = list(grafo.keys())[0]
+	cola.append(inicio)
+	visitados.append(inicio)
+	
+	while len(cola) > 0:
+		visitado = cola.pop(0)
+		for adyacente in grafo[visitado]:
+			if adyacente not in visitados:
+				cola.append(adyacente)
+				visitados.append(adyacente)
+	return visitados
+```
+
