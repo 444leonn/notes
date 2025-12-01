@@ -61,6 +61,8 @@ La idea es empezar por un Árbol Vacio, es ir incorporando vertice a vertice, ca
 
 Marcando el vertice agregado como ya visitado, evitando asi volver agregar una arista, y evitando que se formen ciclos.
 
+**Importante**: el algoritmo va construyendo el arbol, y en cada paso verifica TODOS los adyacentes al arbol que va construyendo, no unicamente los del vertice del paso actual, o del vertice recien incorporado.
+
 ![](../../../images/grafos-algoritmo-prim.gif)
 ## Kruskal
 
