@@ -8,7 +8,7 @@ Fecha: 2025-11-11T18:01:00
 Archivo:
   - 2a23f454-0dd6-80c8-80b3-ed31ed0695a6
 ---
-# Algoritmos de Grafos
+	# Algoritmos de Grafos
 
 ## Algoritmo de Dijkstra
 
@@ -34,6 +34,7 @@ vértices a V se marcan como inﬁnito.
 Significa que si tengo un grafo que representa caminos con distancia, y supongamos que quiero encontrar el camino mas corto entre dos vertices.
 
 - Importante: se concentra en buscar caminos a partir de un vértice de salida o inicial.
+
 ## Floyd-Warshall
 
 Lo podemos utilizar para encontrar el camino mínimo, pero a diferencia de Dijkstra que sirve para solo un vértice inicio, Floyd-Warshall sirve para cualquier par de vertices.
@@ -97,6 +98,8 @@ Si lo pensamos con colores, tengo que poder colorear el grafo con dos colores si
 ![](../../../images/grafos-bipartito.png)
 
 Si tengo ciclos de longitud impar, es imposible que pueda lograr tener un grafo bipartito.
+
+Puedo hacer un DFS, y voy coloreando los vertices, alternando el color, y luego de visitar el vertice vuelvo a chequear que las adyacencias no sean del mismo color que el actual visitado.
 
 # Puntos de Articulación
 
