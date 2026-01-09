@@ -1,6 +1,3 @@
----
-
----
 [[Notion/Proyecto Challenge Nico/Consigna]]
 
 [[Modelo Entidad-Relacion (ERM)]]
